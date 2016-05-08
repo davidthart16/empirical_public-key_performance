@@ -1,0 +1,312 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<title>
+Computers used for benchmarking cryptographic systems
+</title>
+</head>
+<body>
+<table width="100%">
+<table width="100%">
+  <tr>
+    <td align=middle><img src="vampireLogo.gif" width="140" height="70"><br><a href="http://hyperelliptic.org/ECRYPTII/vampire/"><small>VAMPIRE</small></a></td>
+    <td align=middle><h1>eBACS: ECRYPT Benchmarking of Cryptographic Systems</h1></td>
+    <td align=middle><img src="ecrypt2-logo-trans.png" width="179" height="79"><br><a href="http://www.ecrypt.eu.org/"><small>ECRYPT II</small></a></td>
+  </tr>
+</table>
+<tr><td><table border width="100%" bgcolor="#EEEEEE">
+<tr>
+<td align=middle width="20%" bgcolor="#EEEEEE"><font color="#000000"><b>General information:</b></font></a></td>
+<td align=middle width="14%"><a href="index.html" style="text-decoration:none">Introduction</a></td>
+<td align=middle width="11%"><a href="ebash.html" style="text-decoration:none">eBASH</a></td>
+<td align=middle width="11%"><a href="ebasc.html" style="text-decoration:none">eBASC</a></td>
+<td align=middle width="11%"><a href="ebats.html" style="text-decoration:none">eBATS</a></td>
+<td align=middle width="11%"><a href="supercop.html" style="text-decoration:none">SUPERCOP</a></td>
+<td align=middle width="11%"><a href="xbx.html" style="text-decoration:none">XBX</a></td>
+<td align=middle width="11%" bgcolor="#FFFF00"><b>Computers</b></td>
+</tr></table><table border width="100%" bgcolor="#EEEEEE"><tr>
+<td align=middle width="20%" bgcolor="#EEEEEE"><font color="#000000"><b>How to submit new software:</b></font></a></td>
+<td align=middle width="20%"><a href="call-hash.html" style="text-decoration:none">Hash functions</a></td>
+<td align=middle width="15%"><a href="call-stream.html" style="text-decoration:none">Stream ciphers</a></td>
+<td align=middle width="15%"><a href="call-dh.html" style="text-decoration:none">DH functions</a></td>
+<td align=middle width="15%"><a href="call-encrypt.html" style="text-decoration:none">Public-key encryption</a></td>
+<td align=middle width="15%"><a href="call-sign.html" style="text-decoration:none">Public-key signatures</a></td>
+</tr></table><table border width="100%" bgcolor="#EEEEEE"><tr>
+<td align=middle width="20%" bgcolor="#EEEEEE"><font color="#000000"><b>List of primitives measured:</b></font></a></td>
+<td align=middle width="10%"><a href="primitives-sha3.html" style="text-decoration:none">SHA-3 finalists</a></td>
+<td align=middle width="10%"><a href="primitives-hash.html" style="text-decoration:none">All hash functions</a></td>
+<td align=middle width="15%"><a href="primitives-stream.html" style="text-decoration:none">Stream ciphers</a></td>
+<td align=middle width="15%"><a href="primitives-dh.html" style="text-decoration:none">DH functions</a></td>
+<td align=middle width="15%"><a href="primitives-encrypt.html" style="text-decoration:none">Public-key encryption</a></td>
+<td align=middle width="15%"><a href="primitives-sign.html" style="text-decoration:none">Public-key signatures</a></td>
+</tr></table><table border width="100%" bgcolor="#EEEEEE"><tr>
+<td align=middle width="20%" bgcolor="#EEEEEE"><font color="#000000"><b>Measurements indexed by machine:</b></font></a></td>
+<td align=middle width="10%"><a href="results-sha3.html" style="text-decoration:none">SHA-3 finalists</a></td>
+<td align=middle width="10%"><a href="results-hash.html" style="text-decoration:none">All hash functions</a></td>
+<td align=middle width="15%"><a href="results-stream.html" style="text-decoration:none">Stream ciphers</a></td>
+<td align=middle width="15%"><a href="results-dh.html" style="text-decoration:none">DH functions</a></td>
+<td align=middle width="15%"><a href="results-encrypt.html" style="text-decoration:none">Public-key encryption</a></td>
+<td align=middle width="15%"><a href="results-sign.html" style="text-decoration:none">Public-key signatures</a></td>
+</tr>
+</table>
+</td></tr>
+<tr><td>
+<h1>Computers used for benchmarking cryptographic systems</h1>
+This page describes the specific computers used for eBACS/eBATS/eBASC/eBASH measurements.
+<p>
+Would you like to contribute CPU cycles to benchmarking?
+See the <a href="supercop.html">SUPERCOP page</a> for more information
+on how you can add computers to this list.
+<p>
+Thanks to everyone who has run the benchmark scripts on their computers,
+and thanks to everyone who has provided computers and accounts for benchmarking.
+<h2>Architecture notes</h2>
+<table border>
+<tr><th>Designer</th><th>Microarchitecture</th><th>CPU ID</th></tr>
+<tr><td>AMD</td><td>K7</td><td>622</td></tr>
+<tr><td>AMD</td><td>K8</td><td>20f10 (Egypt), 40f13 (Santa Rosa), 40fb2</td></tr>
+<tr><td>AMD</td><td>K10 65nm</td><td>100f23 (Agena, Barcelona)</td></tr>
+<tr><td>AMD</td><td>K10 45nm</td><td>100f42 (Deneb, Shanghai), 100f63 (Geneva), 100fa0 (Thuban)</td></tr>
+<tr><td>AMD</td><td>K10 32nm</td><td>300f10 (Llano)</td></tr>
+<tr><td>AMD</td><td>Bobcat</td><td>500f20 (Brazos)</td></tr>
+<tr><td>AMD</td><td>Bulldozer</td><td>600f12 (Zambezi)</td></tr>
+<tr><td>ARM</td><td>Cortex-A8</td><td>412fc081 (Freescale i.MX515), 412fc085 (Freescale i.MX515), 413fc082 (TI Sitara AM3359, TI Sitara AM3703)</td></tr>
+<tr><td>ARM</td><td>Cortex-A9</td><td>411fc090 (NVIDIA Tegra 250)</td></tr>
+<tr><td>ARM</td><td>Cortex-A9+NEON</td><td>413fc090 (VIA WonderMedia 8850)</td></tr>
+<tr><td>ARM</td><td>Cortex-A15</td><td>410fc0f4 (Samsung Exynos 5)</td></tr>
+<tr><td>Intel</td><td>P6</td><td>672, 683</td></tr>
+<tr><td>Intel</td><td>PM</td><td>6d8</td></tr>
+<tr><td>Intel</td><td>P4 NetBurst</td><td>f0a (Willamette), f12 (Willamette), f25 (Northwood)</td></tr>
+<tr><td>Intel</td><td>P4 Prescott</td><td>f41, f43, f64</td></tr>
+<tr><td>Intel</td><td>C2 65nm</td><td>6f2 (Allendale, Conroe), 6f6 (Allendale, Conroe, Woodcrest), 6f8 (Kenstfield), 6fb (Kentsfield, Merom, Clovertown, Tigerton), 6fd (Allendale, Conroe)</td></tr>
+<tr><td>Intel</td><td>C2 45nm</td><td>10676 (Harpertown, Wolfdale), 10677 (Yorkfield), 1067a (Penryn, Wolfdale)</td></tr>
+<tr><td>Intel</td><td>Atom</td><td>106c2 (Diamondville), 106ca (Pineview)</td></tr>
+<tr><td>Intel</td><td>Nehalem</td><td>106a5 (Bloomfield, Gainestown), 106e5 (Clarksfield, Lynnfield), 206e6 (Beckton)</td></tr>
+<tr><td>Intel</td><td>Westmere</td><td>20652 (Arrandale), 20655 (Arrandale)</td></tr>
+<tr><td>Intel</td><td>Westmere+AES</td><td>206c2 (Gulftown)</td></tr>
+<tr><td>Intel</td><td>Sandy Bridge</td><td>206a7 in Core i3</td></tr>
+<tr><td>Intel</td><td>SB+AES</td><td>206a7 in Core i5/i7</td></tr>
+<tr><td>Intel</td><td>Haswell</td><td>306c3 in Core i3</td></tr>
+<tr><td>Intel</td><td>HW+AES</td><td>306c3 in Core i5/i7</td></tr>
+<tr><td>Qualcomm</td><td>Scorpion</td><td>510f02d2 (Snapdragon S3 APQ8060)</td></tr>
+<tr><td>Qualcomm</td><td>Krait</td><td>511f04d0, 511f04d3 (Snapdragon S4 APQ8060A)</td></tr>
+</table>
+<h2>Computers</h2>
+<table border>
+<tr><th>CPU release date</th><th>Architecture</th><th>CPU; cores in computer x MHz</th><th>Computer name</th><th>Owner</th><th>Reports</th><th>Latest report</th></tr>
+<tr><td>2015</td><td>amd64; Skylake (506e3)</td><td>Intel Core i5-6600; 4 x 3310</td><td>skylake</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>1</td><td bgcolor=#dddddd>supercop-20141124</td></tr>
+<tr><td>2013</td><td>amd64; HW+AES (306c3)</td><td>Intel Xeon E3-1275 V3; 4 x 3500</td><td>titan0</td><td>Technische Universiteit Eindhoven</td><td align=right>12</td><td bgcolor=#dddddd>supercop-20141124</td></tr>
+<tr><td>2013</td><td>amd64; HW+AES (306c3)</td><td>Intel Core i7-4770; 4 x 3400</td><td>wintermute</td><td>Dave Cottlehuber; thanks to Dave Cottlehuber for running benchmarks</td><td align=right>1</td><td bgcolor=#bbbbbb>supercop-20140505</td></tr>
+<tr><td>2013</td><td>amd64; HW+AES (306c3)</td><td>Intel Core i5-4570S; 4 x 2900</td><td>haswell</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2012</td><td>armeabi; Krait (511f04d3)</td><td>Qualcomm Snapdragon S4 APQ8060A; 2 x 1512</td><td>h9dragon</td><td>Daniel J. Bernstein</td><td align=right>2</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2012</td><td>armeabi; Cortex-A9+NEON (413fc090)</td><td>VIA WonderMedia 8850; 1 x 1200</td><td>h7green</td><td>University of Illinois at Chicago</td><td align=right>5</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2012</td><td>armeabi; Cortex-A8 (413fc082)</td><td>TI Sitara XAM3359AZCZ100; 1 x 1000</td><td>bblack</td><td>Daniel J. Bernstein and Tanja Lange</td><td align=right>1</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2012</td><td>armeabi; Cortex-A15 (410fc0f4)</td><td>Samsung Exynos 5 Dual; 2 x 1700</td><td>sachr</td><td>Jan Mojžíš</td><td align=right>2</td><td bgcolor=#bbbbbb>supercop-20140514</td></tr>
+<tr><td>2012</td><td>amd64; Piledriver (610f01)</td><td>AMD A10-5800K; 2 x 3800</td><td>hydra9</td><td>University of Illinois at Chicago</td><td align=right>7</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2012</td><td>amd64; Piledriver (610f01)</td><td>AMD A10-4655M; 2 x 2000</td><td>h9trinity</td><td>University of Illinois at Chicago</td><td align=right>8</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2012</td><td>amd64; Bulldozer (600f12)</td><td>AMD FX-4170; 2 x 4200</td><td>pistol</td><td>University of Illinois at Chicago; thanks to W. Michael Petullo for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20121016</td></tr>
+<tr><td>2012</td><td>amd64; IB+AES (306a9)</td><td>Intel Xeon E3-1275 V2; 4 x 3500</td><td>hydra8</td><td>University of Illinois at Chicago</td><td align=right>8</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2012</td><td>amd64; IB+AES (306a9)</td><td>Intel Core i7-3770; 4 x 3392</td><td>ares</td><td>United States Military Academy; thanks to W. Michael Petullo for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2012</td><td>amd64; IB+AES (306a9)</td><td>Intel Core i7-3520M; 2 x 2900</td><td>khazaddum</td><td>Joppe Bos; thanks to Joppe Bos for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20120928</td></tr>
+<tr><td>2012</td><td>amd64; IB+AES (306a9)</td><td>Intel Core i5-3210M; 2 x 2500</td><td>h9ivy</td><td>University of Illinois at Chicago</td><td align=right>11</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>armeabi; Scorpion (510f02d2)</td><td>Qualcomm Snapdragon S3 APQ8060; 2 x 1782</td><td>h6dragon</td><td>University of Illinois at Chicago</td><td align=right>15</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>armeabi; Scorpion (510f02d2)</td><td>Qualcomm Snapdragon S3 APQ8060; 2 x 1188</td><td>spongebob</td><td>Virginia Tech; thanks to Patrick Schaumont for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2011</td><td>armeabi; Cortex-A8 (413fc082)</td><td>TI Sitara AM3359; 1 x 720</td><td>flops</td><td>Daniel J. Bernstein and Tanja Lange</td><td align=right>3</td><td bgcolor=#bbbbbb>supercop-20140622</td></tr>
+<tr><td>2011</td><td>armeabi; Cortex-A8 (413fc082)</td><td>TI Sitara AM3359; 1 x 720</td><td>h7beagle</td><td>University of Illinois at Chicago</td><td align=right>3</td><td bgcolor=#bbbbbb>supercop-20140622</td></tr>
+<tr><td>2011</td><td>armeabi; Cortex-A9+NEON (411fc092)</td><td>TI OMAP 4460; 2 x 1000</td><td>h5omap</td><td>University of Illinois at Chicago</td><td align=right>6</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2011</td><td>amd64; Bulldozer (600f12)</td><td>AMD FX-8150; 4 x 3600</td><td>bulldozer</td><td>NAGRA; thanks to Jean-Philippe Aumasson for running benchmarks</td><td align=right>8</td><td bgcolor=#999999>supercop-20120709</td></tr>
+<tr><td>2011</td><td>amd64; Bulldozer (600f12)</td><td>AMD FX-8120; 4 x 3100</td><td>hydra6</td><td>University of Illinois at Chicago</td><td align=right>16</td><td bgcolor=#bbbbbb>supercop-20140622</td></tr>
+<tr><td>2011</td><td>amd64; Bobcat (500f20)</td><td>AMD E-450; 2 x 1650</td><td>h4e450</td><td>University of Illinois at Chicago</td><td align=right>18</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; Bobcat (500f20)</td><td>AMD E-450; 2 x 1650</td><td>h5e450</td><td>University of Illinois at Chicago</td><td align=right>10</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2011</td><td>amd64; Bobcat (500f20)</td><td>AMD E-350; 2 x 1600</td><td>h4e350</td><td>University of Illinois at Chicago</td><td align=right>19</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; Bobcat (500f10)</td><td>AMD G-T56N; 2 x 1650</td><td>h8bobcat</td><td>University of Illinois at Chicago</td><td align=right>7</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; K10 32nm (300f10)</td><td>AMD A8-3850; 4 x 2900</td><td>hydra5</td><td>University of Illinois at Chicago</td><td align=right>21</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; K10 32nm (300f10)</td><td>AMD A6-3650; 4 x 2600</td><td>hydra4</td><td>University of Illinois at Chicago</td><td align=right>21</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; Atom (30661)</td><td>Intel Atom D2500; 2 x 1866</td><td>h8atom</td><td>University of Illinois at Chicago</td><td align=right>6</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Xeon E3-1225; 4 x 3100</td><td>hydra7</td><td>University of Illinois at Chicago</td><td align=right>7</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Xeon E3-1220L; 2 x 2200; <font color=red>threads</font>; <font color=red>boost</font></td><td>backup</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Core i7-2600K; 4 x 3400; <font color=red>threads</font></td><td>sandy0</td><td>Academia Sinica; thanks to Peter Schwabe for running benchmarks</td><td align=right>15</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Core i5-2500K; 4 x 3293</td><td>elroy</td><td>Ben Denton; thanks to Ben Denton for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Core i5-2400S; 4 x 2495</td><td>sandy</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>5</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2011</td><td>amd64; SB+AES (206a7)</td><td>Intel Core i5-2400; 4 x 3100</td><td>mangetsu</td><td>Gilles Van Assche; thanks to Gilles Van Assche for running benchmarks</td><td align=right>16</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; Sandy Bridge (206a7)</td><td>Intel Core i3-2310M; 2 x 2100</td><td>bridge</td><td>Daniel J. Bernstein</td><td align=right>8</td><td bgcolor=#999999>supercop-20120928</td></tr>
+<tr><td>2011</td><td>amd64; Sandy Bridge (206a7)</td><td>Intel Core i3-2310M; 2 x 2100</td><td>h6sandy</td><td>University of Illinois at Chicago</td><td align=right>20</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2011</td><td>amd64; Atom (106ca)</td><td>Intel Atom N435; 1 x 1330</td><td>h4atom</td><td>University of Illinois at Chicago</td><td align=right>9</td><td bgcolor=#bbbbbb>supercop-20140425</td></tr>
+<tr><td>2011</td><td>x86; Atom (30661)</td><td>Intel Atom N2800; 2 x 1862</td><td>patrick</td><td>Virginia Tech</td><td align=right>1</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2010</td><td>armeabi; Cortex-A9 (411fc090)</td><td>NVIDIA Tegra 250; 2 x 1000</td><td>h2tegra</td><td>University of Illinois at Chicago</td><td align=right>7</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2010</td><td>armeabi; Cortex-A9 (411fc090)</td><td>NVIDIA Tegra 2; 2 x 1000</td><td>h5tegra</td><td>University of Illinois at Chicago</td><td align=right>12</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2010</td><td>mips64</td><td>ICT Loongson 3A V0.5; 4 x 900</td><td>gcc49</td><td>Tetaneutral</td><td align=right>6</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2010</td><td>ppc64</td><td>POWER7; 64 x 3550</td><td>gcc1power7</td><td>Oregon State University</td><td align=right>13</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2010</td><td>amd64; K10 45nm (100fa0)</td><td>AMD Phenom II X6 1100T; 6 x 3300</td><td>hydra3</td><td>University of Illinois at Chicago</td><td align=right>23</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2010</td><td>amd64; K10 45nm (100fa0)</td><td>AMD Phenom II X6 1090T; 6 x 3200</td><td>agamemnon</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; K10 45nm (100fa0)</td><td>AMD Phenom II X6 1090T; 6 x 3200; <font color=red>boost</font></td><td>hydra1</td><td>University of Illinois at Chicago</td><td align=right>24</td><td bgcolor=#bbbbbb>supercop-20140529</td></tr>
+<tr><td>2010</td><td>amd64; K10 45nm (100fa0)</td><td>AMD Phenom II X6 1055T; 6 x 2800</td><td>phenom</td><td>Martin Schläffer; thanks to Martin Schläffer for running benchmarks</td><td align=right>10</td><td bgcolor=#999999>supercop-20120812</td></tr>
+<tr><td>2010</td><td>amd64; K10 45nm (100f63)</td><td>AMD Athlon II Neo K125; 1 x 1700</td><td>h3neo</td><td>University of Illinois at Chicago</td><td align=right>11</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2010</td><td>amd64; Nehalem (206e6)</td><td>Intel Xeon X7560; 32 x 2266; <font color=red>threads</font>; <font color=red>boost</font></td><td>bigmem</td><td>Danilo Gligoroski; thanks to Danilo Gligoroski for running benchmarks</td><td align=right>3</td><td bgcolor=#dddddd>supercop-20141124</td></tr>
+<tr><td>2010</td><td>amd64; Westmere+AES (206c2)</td><td>Intel Xeon X5680; 12 x 3325; <font color=red>threads</font>; <font color=red>boost</font></td><td>cryptologic</td><td>Virginia Tech; thanks to Patrick Schaumont for running benchmarks</td><td align=right>30</td><td bgcolor=#bbbbbb>supercop-20140517</td></tr>
+<tr><td>2010</td><td>amd64; Westmere+AES (206c2)</td><td>Intel Xeon E5620; 8 x 2401; <font color=red>threads</font>; <font color=red>boost</font></td><td>giant4</td><td>Academia Sinica</td><td align=right>39</td><td bgcolor=#999999>supercop-20120207</td></tr>
+<tr><td>2010</td><td>amd64; Westmere+AES (206c2)</td><td>Intel Xeon E5620; 4 x 2400; <font color=red>threads</font></td><td>db01</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; Westmere+AES (206c2)</td><td>Intel Xeon E5620; 4 x 2400; <font color=red>threads</font></td><td>db02</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; Westmere+AES (206c2)</td><td>Intel Xeon E5620; 4 x 2400</td><td>hydra2</td><td>University of Illinois at Chicago</td><td align=right>27</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20655)</td><td>Intel Core i5 M 540; 2 x 2533</td><td>spiderland</td><td>Diego de Freitas Aranha; thanks to Diego de Freitas Aranha for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20110825</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20655)</td><td>Intel Core i5 M 520; 2 x 2400</td><td>johndoe</td><td>Benedikt Westermann; thanks to Benedikt Westermann for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20655)</td><td>Intel Core i5 M 520; 2 x 2400; <font color=red>boost</font></td><td>wideload</td><td>Craig Harmer; thanks to Craig Harmer for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20101204</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20655)</td><td>Intel Core i3-540; 2 x 3059; <font color=red>threads</font></td><td>lbl01</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20652)</td><td>Intel Pentium G6950; 2 x 2800</td><td>bazinga</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; Westmere (20652)</td><td>Intel Core i5 M 520; 2 x 2400; <font color=red>threads</font>; <font color=red>boost</font></td><td>thinkaes</td><td>IBM; thanks to Charanjit Jutla for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100120</td></tr>
+<tr><td>2010</td><td>amd64; Atom (106ca)</td><td>Intel Atom N455; 1 x 1000</td><td>h2atom</td><td>University of Illinois at Chicago</td><td align=right>25</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2010</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5503; 2 x 1995</td><td>sto01</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2010</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5503; 2 x 1995</td><td>sto02</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2009</td><td>armeabi; Armada (560f5815)</td><td>Marvell Armada 510; 1 x 796</td><td>cubox</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20120928</td></tr>
+<tr><td>2009</td><td>armeabi; Cortex-A8 (413fc082)</td><td>TI Sitara AM3703; 1 x 500</td><td>h7silver</td><td>University of Illinois at Chicago</td><td align=right>2</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2009</td><td>armeabi; Cortex-A8 (412fc085)</td><td>Freescale i.MX515; 1 x 800</td><td>h4mx515e</td><td>University of Illinois at Chicago</td><td align=right>16</td><td bgcolor=#bbbbbb>supercop-20140622</td></tr>
+<tr><td>2009</td><td>armeabi; Cortex-A8 (412fc085)</td><td>Freescale i.MX515; 1 x 800</td><td>h5mx515</td><td>University of Illinois at Chicago</td><td align=right>4</td><td bgcolor=#999999>supercop-20120709</td></tr>
+<tr><td>2009</td><td>armeabi; Cortex-A8 (412fc081)</td><td>Freescale i.MX515; 1 x 800</td><td>gcc33</td><td>FSF France</td><td align=right>18</td><td bgcolor=#999999>supercop-20110509</td></tr>
+<tr><td>2009</td><td>armeabi; Cortex-A8 (412fc081)</td><td>Freescale i.MX515; 1 x 800</td><td>h1mx515</td><td>University of Illinois at Chicago</td><td align=right>18</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2009</td><td>avr</td><td>Atmel ATmega1284p; 1 x 16</td><td>blix1021284p</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2009</td><td>amd64; K10 45nm (100f42)</td><td>AMD Phenom II X4 955; 4 x 3200</td><td>linuxf3gk</td><td>John Wilkinson; thanks to John Wilkinson for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100120</td></tr>
+<tr><td>2009</td><td>amd64; K10 45nm (100f42)</td><td>AMD Phenom II X4 955; 4 x 3200</td><td>morningstar</td><td>University of Illinois at Chicago</td><td align=right>28</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106e5)</td><td>Intel Xeon X3440; 4 x 2533</td><td>strelok</td><td>Dowling College</td><td align=right>1</td><td bgcolor=#999999>supercop-20120521</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106e5)</td><td>Intel Core i7 920X; 4 x 1999; <font color=red>boost</font></td><td>ellprecisio</td><td>Danilo Gligoroski; thanks to Danilo Gligoroski for running benchmarks</td><td align=right>4</td><td bgcolor=#999999>supercop-20110825</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106e5)</td><td>Intel Core i5 750; 4 x 2668; <font color=red>boost</font></td><td>hi5</td><td>Jean-Louis Modave; thanks to Jean-Louis Modave for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20100425</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106e5)</td><td>Intel Core i5 750; 4 x 2660</td><td>astro</td><td>Ben Denton; thanks to Ben Denton for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2009</td><td>amd64; Atom (106ca)</td><td>Intel Atom D510; 2 x 1667; <font color=red>threads</font></td><td>gcc47</td><td>FSF France</td><td align=right>20</td><td bgcolor=#999999>supercop-20120918</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5530; 8 x 2400</td><td>coolmagma</td><td>Danilo Gligoroski; thanks to Danilo Gligoroski for running benchmarks</td><td align=right>16</td><td bgcolor=#999999>supercop-20110825</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5506; 4 x 2128</td><td>web01</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5506; 4 x 2128</td><td>web02</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2009</td><td>amd64; Nehalem (106a5)</td><td>Intel Xeon E5504; 8 x 2000</td><td>dragon</td><td>National Taiwan University</td><td align=right>37</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2009</td><td>amd64; Nano (6f8)</td><td>Via Nano U3500; 1 x 1000</td><td>h5nano</td><td>University of Illinois at Chicago</td><td align=right>10</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2009</td><td>x86; Atom (106c2)</td><td>Intel Atom N280; 1 x 1667</td><td>slim</td><td>D. J. Bernstein and Tanja Lange</td><td align=right>19</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2008</td><td>armeabi (v5l, ARM926EJ-S)</td><td>Marvell Kirkwood 88F6281; 1 x 1200</td><td>auxplug</td><td>Markus Wamser; thanks to Markus Wamser for running benchmarks</td><td align=right>1</td><td bgcolor=#dddddd>supercop-20141124</td></tr>
+<tr><td>2008</td><td>armeabi (v5l, ARM926EJ-S)</td><td>Marvell Kirkwood 88F6281; 1 x 1200</td><td>sheeva</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2008</td><td>mips64</td><td>ICT Loongson-2 V0.3; 1 x 892</td><td>gcc42</td><td>FSF France</td><td align=right>13</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2008</td><td>amd64; K10 45nm (100f42)</td><td>AMD Opteron 2376; 8 x 2300</td><td>angel0</td><td>Academia Sinica</td><td align=right>13</td><td bgcolor=#999999>supercop-20101002</td></tr>
+<tr><td>2008</td><td>amd64; K10 65nm (100f23)</td><td>AMD Phenom 9550; 4 x 2200</td><td>ranger</td><td>Academia Sinica</td><td align=right>45</td><td bgcolor=#999999>supercop-20120310</td></tr>
+<tr><td>2008</td><td>amd64; K10 65nm (100f23)</td><td>AMD Opteron 8354; 8 x 2194</td><td>gcc16</td><td>INRIA Saclay</td><td align=right>38</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2008</td><td>amd64; K10 65nm (100f23)</td><td>AMD Opteron 2354; 8 x 2200</td><td>hlopt02</td><td>Danmarks Tekniske Universitet; thanks to Søren Thomsen for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100425</td></tr>
+<tr><td>2008</td><td>amd64; K10 65nm (100f23)</td><td>AMD Opteron 2354; 8 x 2200</td><td>hlopt03</td><td>Danmarks Tekniske Universitet; thanks to Søren Thomsen for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100509</td></tr>
+<tr><td>2008</td><td>amd64; Atom (106c2)</td><td>Intel Atom 330; 2 x 1596; <font color=red>threads</font></td><td>molecule</td><td>National Taiwan University</td><td align=right>2</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2008</td><td>amd64; Nehalem (106a5)</td><td>Intel Core i7 920; 4 x 2793; <font color=red>boost</font></td><td>gameboy3</td><td>Craig Harmer; thanks to Craig Harmer for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20101204</td></tr>
+<tr><td>2008</td><td>amd64; Nehalem (106a5)</td><td>Intel Core i7 920; 4 x 2673; <font color=red>threads</font>; <font color=red>boost</font></td><td>odin</td><td>Luke R. Mucha; thanks to Luke R. Mucha for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20100611</td></tr>
+<tr><td>2008</td><td>amd64; Nehalem (106a5)</td><td>Intel Core i7 920; 4 x 2668; <font color=red>threads</font>; <font color=red>boost</font></td><td>hercules</td><td>Benedikt Westermann; thanks to Benedikt Westermann for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20101029</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (1067a)</td><td>Intel Core 2 Duo T9400; 2 x 2534; <font color=red>boost</font></td><td>matsui</td><td>IBM; thanks to Charanjit Jutla for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100120</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (1067a)</td><td>Intel Core 2 Duo E8400; 2 x 3000</td><td>boing</td><td>Samuel Neves; thanks to Samuel Neves for running benchmarks</td><td align=right>27</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (1067a)</td><td>Intel Core 2 Duo E8400; 1 x 2997</td><td>brick</td><td>Matthew Dempsky</td><td align=right>3</td><td bgcolor=#999999>supercop-20090715</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (10677)</td><td>Intel Core 2 Quad Q9550; 4 x 2833</td><td>berlekamp</td><td>National Taiwan University</td><td align=right>53</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (10676)</td><td>Intel Pentium E5200; 2 x 2500</td><td>floodyberry</td><td>Andrew M.; thanks to Andrew M. for running benchmarks</td><td align=right>6</td><td bgcolor=#bbbbbb>supercop-20140505</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (10676)</td><td>Intel Core 2 Duo U9400; 2 x 1401</td><td>needme</td><td>D. J. Bernstein</td><td align=right>2</td><td bgcolor=#999999>supercop-20081222</td></tr>
+<tr><td>2008</td><td>amd64; C2 45nm (10676)</td><td>Intel Core 2 Duo T8100?; 2? x 2100</td><td>macbook4</td><td>H. J. Bernstein</td><td align=right>1</td><td bgcolor=#999999>supercop-20120521</td></tr>
+<tr><td>2008</td><td>amd64; C2 65nm (6fd)</td><td>Intel Pentium Dual CPU T2390; 2 x 1867</td><td>delllaptop</td><td>John Wilkinson</td><td align=right>1</td><td bgcolor=#999999>supercop-20090408</td></tr>
+<tr><td>2008</td><td>x86; Atom (106c2)</td><td>Intel Atom Z520; 1 x 1330</td><td>h3atom</td><td>University of Illinois at Chicago</td><td align=right>12</td><td bgcolor=#bbbbbb>supercop-20140425</td></tr>
+<tr><td>2008</td><td>x86; C2 45nm (10676)</td><td>Intel Core 2 Duo E8300; 2 x 2833</td><td>tahoe04</td><td>Norwegian University of Science and Technology; thanks to Eirik Haver for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20101014</td></tr>
+<tr><td>2007?</td><td>mips64</td><td>ICT Loongson-2 V0.3; 1 x 892</td><td>gcc52</td><td>FSF France</td><td align=right>7</td><td bgcolor=#999999>supercop-20110609</td></tr>
+<tr><td>2007?</td><td>mipso32; 24K (24Kc)</td><td>Atheros AR7161 rev 2; 1 x 720</td><td>h1mips</td><td>University of Illinois at Chicago</td><td align=right>7</td><td bgcolor=#bbbbbb>supercop-20140622</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon X5450; 8 x 2992</td><td>gcc14</td><td>smile.fr</td><td align=right>39</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon E5440; 8 x 2830</td><td>girofle</td><td>École Nationale Supérieure</td><td align=right>1</td><td bgcolor=#999999>supercop-20090305</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon E5440; 8 x 2826</td><td>lumen</td><td>Jan Mojžíš; thanks to Jan Mojžíš for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon E5430; 8 x 2666</td><td>giant0</td><td>Academia Sinica</td><td align=right>19</td><td bgcolor=#999999>supercop-20120207</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon E5420; 4 x 2494</td><td>jos</td><td>STMicroelectronics; thanks to Gilles Van Assche for running benchmarks</td><td align=right>22</td><td bgcolor=#dddddd>supercop-20141014</td></tr>
+<tr><td>2007</td><td>amd64; C2 45nm (10676)</td><td>Intel Xeon E5420; 8 x 2494</td><td>macek</td><td>Jan Mojžíš; thanks to Jan Mojžíš for running benchmarks</td><td align=right>4</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fd)</td><td>Intel Core 2 Duo E4600; 2 x 2400</td><td>cobra</td><td>Danmarks Tekniske Universitet; thanks to Søren Thomsen for running benchmarks</td><td align=right>35</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Xeon X3220; 4 x 2400</td><td>lanczos</td><td>Academia Sinica</td><td align=right>6</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Xeon X3220; 4 x 2399</td><td>enigma</td><td>Virginia Tech; thanks to Patrick Schaumont for running benchmarks</td><td align=right>34</td><td bgcolor=#bbbbbb>supercop-20140529</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Xeon E7310; 4 x 1595</td><td>nalla</td><td>Virginia Tech; thanks to Patrick Schaumont for running benchmarks</td><td align=right>4</td><td bgcolor=#999999>supercop-20100728</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 4 x 2405</td><td>utrecht</td><td>D. J. Bernstein and Tanja Lange</td><td align=right>46</td><td bgcolor=#bbbbbb>supercop-20140525</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 4 x 2404</td><td>margaux</td><td>Technische Universiteit Eindhoven</td><td align=right>47</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 4 x 2400</td><td>svlin003</td><td>Technische Universiteit Eindhoven</td><td align=right>5</td><td bgcolor=#999999>supercop-20090310</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 4 x 2394</td><td>latour</td><td>Technische Universiteit Eindhoven</td><td align=right>49</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 4 x 2394</td><td>nmih002</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>13</td><td bgcolor=#999999>supercop-20101204</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 1 x 2394</td><td>nmiv001</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>14</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Quad Q6600; 1 x 2394</td><td>nmiv004</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>6</td><td bgcolor=#999999>supercop-20100728</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6fb)</td><td>Intel Core 2 Duo T7300; 2 x 2000</td><td>trident</td><td>University of Illinois at Chicago</td><td align=right>44</td><td bgcolor=#999999>supercop-20121016</td></tr>
+<tr><td>2007</td><td>amd64; C2 65nm (6f8)</td><td>Intel Core 2 Quad Q6600; 1 x 2394</td><td>nmiv003</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>10</td><td bgcolor=#999999>supercop-20100926</td></tr>
+<tr><td>2006</td><td>armeabi (v7-M, Cortex-M3)</td><td>Luminary Micro LM3S811; 1 x 6</td><td>blix104lm3s811</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2006</td><td>armeabi (v7-M, Cortex-M3)</td><td>Luminary Micro LM3S811; 1 x 6</td><td>clix104lm3s811</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>xbx-20101114</td></tr>
+<tr><td>2006?</td><td>armeabi (v6, 1136J)</td><td>TI OMAP 2420; 1 x 400</td><td>diablo</td><td>Donation from Nokia</td><td align=right>9</td><td bgcolor=#999999>supercop-20120627</td></tr>
+<tr><td>2006</td><td>cellspu (PS3)</td><td>Cell; 8 x 3192; <font color=red>threads</font></td><td>nmi0249</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>9</td><td bgcolor=#999999>supercop-20101204</td></tr>
+<tr><td>2006</td><td>cellspu (PS3)</td><td>Cell; 8 x 3192; <font color=red>threads</font></td><td>stan</td><td>Peter Schwabe</td><td align=right>16</td><td bgcolor=#999999>supercop-20120918</td></tr>
+<tr><td>2006</td><td>amd64; K8 (40fb2)</td><td>AMD Athlon 64 X2; 2 x 2000</td><td>mace</td><td>University of Illinois at Chicago</td><td align=right>40</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2006</td><td>amd64; K8 (40f13)</td><td>AMD Opteron 2212; 4 x 2000</td><td>gcc11</td><td>FSF France</td><td align=right>30</td><td bgcolor=#999999>supercop-20120525</td></tr>
+<tr><td>2006</td><td>amd64; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 3392</td><td>nmi0104</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>18</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2006</td><td>amd64; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 3392</td><td>nmi0161</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>8</td><td bgcolor=#999999>supercop-20100611</td></tr>
+<tr><td>2006</td><td>amd64; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 3392</td><td>nmi0241</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>16</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2006</td><td>amd64; C2 65nm (6fb)</td><td>Intel Xeon E5345; 8 x 2331</td><td>pinky</td><td>Stefan Heyse; thanks to Stefan Heyse for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2006</td><td>amd64; C2 65nm (6f6)</td><td>Intel Xeon 5130; 4 x 1995</td><td>motyka</td><td>Jan Mojžíš; thanks to Jan Mojžíš for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2006</td><td>amd64; C2 65nm (6f6)</td><td>Intel Core 2 Duo E6400; 2 x 2137</td><td>katana</td><td>University of Illinois at Chicago</td><td align=right>69</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2006</td><td>amd64; C2 65nm (6f2)</td><td>Intel Core 2 Duo E6300; 2 x 1833</td><td>nmi0247</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>8</td><td bgcolor=#999999>supercop-20101111</td></tr>
+<tr><td>2006</td><td>x86; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 3391</td><td>nmi0099</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>19</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2006?</td><td>x86; Eden (6d0)</td><td>Via Eden ULV; 1 x 1600</td><td>h1eden</td><td>University of Illinois at Chicago</td><td align=right>8</td><td bgcolor=#999999>supercop-20120918</td></tr>
+<tr><td>2006</td><td>x86</td><td>Intel Core Duo; 2 x 1833</td><td>nmi0068</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>3</td><td bgcolor=#999999>supercop-20090118</td></tr>
+<tr><td>2005?</td><td>armeabi (v4T, 920T)</td><td>Atmel AT91RM9200; 1 x 180</td><td>clix109m501</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20101017</td></tr>
+<tr><td>2005?</td><td>armeabi (v4T, 920T)</td><td>Atmel AT91RM9200; 1 x 180</td><td>hal99m501</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2005</td><td>avr</td><td>Atmel ATmega1281; 1 x 16</td><td>blix1031281</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2005</td><td>avr</td><td>Atmel ATmega1281; 1 x 16</td><td>clix1031281</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20101017</td></tr>
+<tr><td>2005</td><td>ppc32; G4 (G4)</td><td>Motorola PowerPC G4 7447a; 1 x 1416</td><td>h1g4</td><td>University of Illinois at Chicago</td><td align=right>20</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2005</td><td>ppc32; G4 (G4)</td><td>Motorola PowerPC G4 7447a; 1 x 1250</td><td>mini</td><td>Ted Krovetz</td><td align=right>1</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2005?</td><td>ppc64</td><td>IBM PowerPC G5 970; 2 x 2000</td><td>geespaz</td><td>Phil Carmody</td><td align=right>7</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2005</td><td>sparcv9</td><td>Sun UltraSPARC T1; 8 x 1000; <font color=red>threads</font></td><td>deluxe</td><td>ESIEE</td><td align=right>19</td><td bgcolor=#999999>supercop-20110914</td></tr>
+<tr><td>2005</td><td>amd64; K8 (20f10)</td><td>AMD Opteron 875; 16 x 2210</td><td>colossus</td><td>Academia Sinica</td><td align=right>10</td><td bgcolor=#999999>supercop-20100712</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 3000</td><td>svlin001</td><td>Technische Universiteit Eindhoven</td><td align=right>6</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f64)</td><td>Intel Pentium D; 2 x 2992</td><td>speed</td><td>Technische Universiteit Eindhoven</td><td align=right>10</td><td bgcolor=#999999>supercop-20100509</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f4a)</td><td>Intel Xeon; 4 x 3000</td><td>nmi0090</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>1</td><td bgcolor=#999999>supercop-20080728</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f43)</td><td>Intel Xeon; 2 x 3000; <font color=red>threads</font></td><td>charlie</td><td>Jan Mojžíš; thanks to Jan Mojžíš for running benchmarks</td><td align=right>4</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f43)</td><td>Intel Xeon; 2 x 3000; <font color=red>threads</font></td><td>salanda</td><td>Jan Mojžíš; thanks to Jan Mojžíš for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20100903</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f43)</td><td>Intel Pentium 4; 1 x 3192; <font color=red>threads</font></td><td>physalis</td><td>Orr Dunkelman; thanks to Orr Dunkelman for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20090217</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f41)</td><td>Intel Xeon; 4 x 2800; <font color=red>threads</font></td><td>nmi0056</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>9</td><td bgcolor=#999999>supercop-20100821</td></tr>
+<tr><td>2005?</td><td>amd64; P4 Prescott (f41)</td><td>Intel Xeon; 4 x 2800; <font color=red>threads</font></td><td>nmi0063</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>19</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2005?</td><td>x86; P4 Prescott (f47)</td><td>Intel Pentium D; 2 x 3200</td><td>shell</td><td>University of Illinois at Chicago</td><td align=right>1</td><td bgcolor=#999999>supercop-20080729</td></tr>
+<tr><td>2004</td><td>arm (v5l)</td><td>ARM XScale-PXA270 rev 4; 1 x 416</td><td>apollo</td><td>Gaetan Leurent; thanks to Gaetan Leurent for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>supercop-20090408</td></tr>
+<tr><td>2004?</td><td>armeabi (v5TE)</td><td>Intel XScale IXP420; 1 x 266</td><td>clix106nslu2</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>xbx-20101114</td></tr>
+<tr><td>2004?</td><td>armeabi (v5TE)</td><td>Intel XScale IXP420; 1 x 266</td><td>knulp201nslu2</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2004?</td><td>mipso32 (4KEc)</td><td>TI AR7; 1 x 212</td><td>blix1077170</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>xbx-20100715</td></tr>
+<tr><td>2004?</td><td>mipso32 (4KEc)</td><td>TI AR7; 1 x 212</td><td>clix1077170</td><td>XBX; thanks to Christian Wenzel-Benner and Jens Gräf for running benchmarks</td><td align=right>2</td><td bgcolor=#999999>xbx-20101114</td></tr>
+<tr><td>2004?</td><td>ppc64</td><td>IBM POWER5; 4 x 2097; <font color=red>threads</font></td><td>nmi0154</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>10</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2004?</td><td>ppc64</td><td>IBM POWER5; 16 x 1900; <font color=red>threads</font></td><td>node2</td><td>Jørn Amundsen; thanks to Jørn Amundsen for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20101002</td></tr>
+<tr><td>2004</td><td>amd64; P4 Prescott (f49)</td><td>Intel Celeron D 341?; 1 x 2926</td><td>daimos</td><td>DeepSec; thanks to René Pfeiffer for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20111120</td></tr>
+<tr><td>2004</td><td>x86; K8 (20ff2)</td><td>AMD Athlon 64 3800+; 1 x 2400</td><td>alien</td><td>Dowling College</td><td align=right>1</td><td bgcolor=#999999>supercop-20120521</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Xeon; 1 x 2996</td><td>nmi0076</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>7</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Xeon; 2 x 2801; <font color=red>threads</font></td><td>nmi0060</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>7</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Xeon; 2 x 2801; <font color=red>threads</font></td><td>nmi0061</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>12</td><td bgcolor=#999999>supercop-20100926</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Xeon; 2 x 2801; <font color=red>threads</font></td><td>nmi0062</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>18</td><td bgcolor=#999999>supercop-20101204</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Pentium 4; 1 x 3791</td><td>puffy</td><td>Nicolai Brown</td><td align=right>1</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2004</td><td>x86; P4 Prescott (f41)</td><td>Intel Pentium 4; 1 x 3000</td><td>svlin002</td><td>Technische Universiteit Eindhoven</td><td align=right>2</td><td bgcolor=#999999>supercop-20081222</td></tr>
+<tr><td>2004?</td><td>x86; PM (6d8)</td><td>Intel Pentium M; 1 x 2000</td><td>mamba</td><td>Søren Thomsen; thanks to Søren Thomsen for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20100509</td></tr>
+<tr><td>2004?</td><td>x86; PM (6d8)</td><td>Intel Pentium M; 1 x 800</td><td>atlas</td><td>D. J. Bernstein</td><td align=right>10</td><td bgcolor=#999999>supercop-20110716</td></tr>
+<tr><td>2003</td><td>ia64</td><td>HP Itanium II; 2 x 1396</td><td>nmi0065</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>15</td><td bgcolor=#999999>supercop-20110106</td></tr>
+<tr><td>2003</td><td>ia64</td><td>HP Itanium II; 2 x 1300</td><td>tic</td><td>FSF France</td><td align=right>8</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2003?</td><td>ppc64</td><td>IBM PowerPC G5 970; 1 x 1800</td><td>gcc40</td><td>FSF France</td><td align=right>21</td><td bgcolor=#999999>supercop-20110708</td></tr>
+<tr><td>2003</td><td>sparcv9</td><td>Sun UltraSPARC IIIi; 1 x 1062</td><td>nmi0039</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>4</td><td bgcolor=#999999>supercop-20101111</td></tr>
+<tr><td>2003</td><td>amd64 (f58)</td><td>AMD Opteron 240; 2 x 1403</td><td>nmisles8amd64</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>2</td><td bgcolor=#999999>supercop-20080729</td></tr>
+<tr><td>2003?</td><td>x86 (695)</td><td>Intel Pentium M; 1 x 1700</td><td>groovy</td><td>Wei Dai; thanks to Wei Dai for running benchmarks</td><td align=right>1</td><td bgcolor=#999999>supercop-20090403</td></tr>
+<tr><td>2003?</td><td>x86 (695)</td><td>Intel Pentium M; 1 x 1395</td><td>ravenin</td><td>Søren Thomsen; thanks to Søren Thomsen for running benchmarks</td><td align=right>7</td><td bgcolor=#999999>supercop-20090327</td></tr>
+<tr><td>2002?</td><td>ia64</td><td>HP Itanium II; 2 x 997</td><td>nmi0020</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>8</td><td bgcolor=#999999>supercop-20100611</td></tr>
+<tr><td>2002?</td><td>ia64</td><td>HP Itanium II; 2 x 997</td><td>nmi0058</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>15</td><td bgcolor=#999999>supercop-20101111</td></tr>
+<tr><td>2002?</td><td>mips32 (4Kc)</td><td>IDT 79RC32434-400BC; 1 x 400</td><td>mips</td><td>Ted Krovetz; thanks to Ted Krovetz for running benchmarks</td><td align=right>3</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2002</td><td>x86; P4 NetBurst (f27)</td><td>Intel Xeon; 2 x 2791</td><td>nmi0024</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>6</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2002</td><td>x86; P4 NetBurst (f25)</td><td>Intel Xeon; 2 x 2667</td><td>nmi0036</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>10</td><td bgcolor=#999999>supercop-20100917</td></tr>
+<tr><td>2002</td><td>x86; P4 NetBurst (f25)</td><td>Intel Xeon; 4 x 2658</td><td>nmi0013</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>3</td><td bgcolor=#999999>supercop-20081116</td></tr>
+<tr><td>2001</td><td>ppc32; G4 (G4)</td><td>Motorola PowerPC G4 7410; 2 x 533</td><td>gggg</td><td>University of Illinois at Chicago</td><td align=right>36</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2001</td><td>ppc32; G3 (G3)</td><td>Motorola PowerPC 750CXe?; 1 x 349</td><td>biomol</td><td>Dowling College</td><td align=right>1</td><td bgcolor=#999999>supercop-20120525</td></tr>
+<tr><td>2001</td><td>ppc32; G3 (G3)</td><td>Motorola PowerPC 750CXe; 1 x 600</td><td>daedalus</td><td>University of Illinois at Chicago</td><td align=right>25</td><td bgcolor=#999999>supercop-20120310</td></tr>
+<tr><td>2001?</td><td>ppc32; G2 (G2)</td><td>Freescale PowerQUICC II MPC8241LZQ266D; 1 x 262</td><td>g2</td><td>Ted Krovetz</td><td align=right>1</td><td bgcolor=#999999>supercop-20120908</td></tr>
+<tr><td>2001?</td><td>ppc32</td><td>IBM POWER4; 2 x 1200</td><td>nmibuild14</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>2</td><td bgcolor=#999999>supercop-20090205</td></tr>
+<tr><td>2001?</td><td>ppc64</td><td>IBM POWER4; 6 x 1452</td><td>tigger</td><td>University of Illinois at Chicago</td><td align=right>40</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2001</td><td>x86; P4 NetBurst (f12)</td><td>Intel Pentium 4; 1 x 1900</td><td>fireball</td><td>University of Illinois at Chicago</td><td align=right>50</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>2001?</td><td>x86 (6b1)</td><td>Intel Celeron; 1 x 1200</td><td>vieux</td><td>Technische Universiteit Eindhoven</td><td align=right>12</td><td bgcolor=#999999>supercop-20090715</td></tr>
+<tr><td>2000</td><td>sparcv9</td><td>Sun UltraSPARC III; 8 x 900</td><td>icarus</td><td>University of Illinois at Chicago</td><td align=right>21</td><td bgcolor=#999999>supercop-20130126</td></tr>
+<tr><td>2000</td><td>sparcv9</td><td>Sun UltraSPARC III; 2 x 900</td><td>nmi0050</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>1</td><td bgcolor=#999999>supercop-20080729</td></tr>
+<tr><td>2000</td><td>sparcv9</td><td>Sun UltraSPARC III; 2 x 900</td><td>nmi0051</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>3</td><td bgcolor=#999999>supercop-20081105</td></tr>
+<tr><td>2000</td><td>x86; P4 NetBurst (f0a)</td><td>Intel Pentium 4; 1 x 1500</td><td>jeanneke</td><td>STMicroelectronics; thanks to Gilles Van Assche for running benchmarks</td><td align=right>5</td><td bgcolor=#999999>supercop-20100120</td></tr>
+<tr><td>2000</td><td>x86; K7 (622)</td><td>AMD Athlon; 1 x 900</td><td>thoth</td><td>University of Illinois at Chicago</td><td align=right>37</td><td bgcolor=#999999>supercop-20130419</td></tr>
+<tr><td>1999</td><td>x86; P6 (683)</td><td>Intel Pentium 3; 1 x 532</td><td>manneke</td><td>STMicroelectronics; thanks to Gilles Van Assche for running benchmarks</td><td align=right>17</td><td bgcolor=#999999>supercop-20121016</td></tr>
+<tr><td>1999</td><td>x86; P6 (672)</td><td>Intel Pentium 3; 1 x 448</td><td>orpheus</td><td>University of Illinois at Chicago</td><td align=right>19</td><td bgcolor=#bbbbbb>supercop-20140425</td></tr>
+<tr><td>1998</td><td>sparcv9</td><td>Sun UltraSPARC IIi; 1 x 300</td><td>nmi0096</td><td>NMI Build and Test Lab at the University of Wisconsin at Madison</td><td align=right>2</td><td bgcolor=#999999>supercop-20081105</td></tr>
+<tr><td>1998</td><td>x86; P6 (652)</td><td>Intel Pentium 2; 1 x 333</td><td>boris</td><td>University of Illinois at Chicago</td><td align=right>12</td><td bgcolor=#999999>supercop-20130419</td></tr>
+</table>
+</td></tr>
+</table>
+<h2>Version</h2>
+This is version 2015.09.25 of the computers.html web page.
+This web page is in the public domain.
+</body>
+</html>
